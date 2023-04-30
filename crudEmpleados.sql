@@ -10,13 +10,15 @@ create table Empleados
  sueldo double (8,2)not null 
 );
 
+
+
 describe Empleados;
 
 insert into Empleados (nombre,apellidio,edad,sueldo) values ("cristian","toconas",23,2500);
 insert into Empleados (nombre,apellidio,edad,sueldo) values ("Anita","velez",23,2500);
 insert into Empleados (nombre,apellidio,edad,sueldo) values ("lucia","morea",23,2500);
 insert into Empleados (nombre,apellidio,edad,sueldo) values ("veronica","toconas",23,2500);
-
+insert into Empleados (nombre,apellidio,edad,sueldo) values ("ana","sarmiento",23,2500);
 select * from Empleados;
 
 
